@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <!--Compatibilidad con el navegador EDGE-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!--Responsive-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--CDN_Font-awesome(ICONOS)-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"
+    />
+
+    <!--Estilos CSS-->
+    <link rel="stylesheet" href="css/StyleHome.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <title>Home</title>
+  </head>
+  <body>
+    <!--ENCABEZADO-->
+    <header>
+      <section class="top-header">
+        <nav class="menu-oculto">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#" class="active">Manga</a></li>
+            <li><a href="#">Comics</a></li>
+            <li><a href="#">Libros/Novelas</a></li>
+            <li><a href="#">Merchandising</a></li>
+          </ul>
+
+          <ul>
+            <li><a href="/register">Creá tu cuenta</a></li>
+            <li><a href="/login">Inicia sesión</a></li>
+          </ul>
+        </nav>
+        <div class="menu">
+          <i class="fas fa-list"></i>
+        </div>
+        <div class="logo">
+          <a href="./index.html"
+            ><img src="images/dia-mundial-del-libro.png" alt="Logo"
+          /></a>
+          <p>BookBuster</p>
+        </div>
+        <div class="carrito">
+          <a href="/cart"><i class="fas fa-shopping-cart"></i></a>
+        </div>
+      </section>
+      <div class="barra-busqueda">
+        <input
+          type="text"
+          placeholder="Buscar Libros por palabra clave / titulo / autor / ISBN"
+          required
+        />
+        <div class="btn">
+          <i class="fab fa-sistrix"></i>
+        </div>
+      </div>
+    </header>
+
+    <!--SLIDER 1-->
+    <div class="slider-frame">
+      <ul>
+        <li><img src="images/banner1.jpg" alt="" /></li>
+        <li><img src="images/banner2.jpg" alt="" /></li>
+        <li><img src="images/banner3.jpg" alt="" /></li>
+      </ul>
+    </div>
+    <!--SECCION DE SLIDER-->
+    <!-- <section>
+        <div class="container">
+  
+            <ul class="slider">
+                <li id="slide1">
+                    <img src="img/banner1.jpg"/>
+                </li>
+                <li id="slide2">
+                    <img src="img/banner2.jpg"/>
+                </li>
+                <li id="slide3">
+                    <img src="img/banner3.jpg">
+                </li>
+            </ul>
+            
+            <ul class="menu">
+                <li>
+                    <a href="#slide1">1</a>
+                </li>
+                <li>
+                    <a href="#slide2">2</a>
+                </li>
+                <li>
+                    <a href="#slide3">3</a>
+                </li>
+            </ul>
+            
+        </div>
+    </section> -->
+    <!--SECCION DE PRODUCTOS-->
+    <section class="contenedor">
+      <div class="fila">
+        <h2 class="alinear_y_tamaño_texto">
+          Novedades <span class="icon_estrella">&#9733;</span>
+        </h2>
+      </div>
+      <!--COLUMNA DE PRODUCTOS-->
+      <div class="columna_producto">
+        <article class="cards">
+          <img src="images/producto1.jpg" alt="producto1" class="imagenes" />
+          <h4 class="alinear_y_tamaño_texto">Nombre del Producto</h4>
+          <p class="alinear_y_tamaño_texto">$1000</p>
+          <button class="boton">Agregar al carrito</button>
+        </article>
+        <article class="cards">
+          <img src="images/producto1.jpg" alt="producto1" class="imagenes" />
+          <h4 class="alinear_y_tamaño_texto">Nombre del Producto</h4>
+          <p class="alinear_y_tamaño_texto">$1000</p>
+          <button class="boton">Agregar al carrito</button>
+        </article>
+        <article class="cards">
+          <img src="images/producto1.jpg" alt="producto1" class="imagenes" />
+          <h4 class="alinear_y_tamaño_texto">Nombre del Producto</h4>
+          <p class="alinear_y_tamaño_texto">$1000</p>
+          <button class="boton">Agregar al carrito</button>
+        </article>
+        <article class="cards">
+          <img src="images/producto1.jpg" alt="producto1" class="imagenes" />
+          <h4 class="alinear_y_tamaño_texto">Nombre del Producto</h4>
+          <p class="alinear_y_tamaño_texto">$1000</p>
+          <button class="boton">Agregar al carrito</button>
+        </article>
+        <article class="cards">
+          <img src="images/producto1.jpg" alt="producto1" class="imagenes" />
+          <h4 class="alinear_y_tamaño_texto">Nombre del Producto</h4>
+          <p class="alinear_y_tamaño_texto">$1000</p>
+          <button class="boton">Agregar al carrito</button>
+        </article>
+        <article class="cards">
+          <img src="images/producto1.jpg" alt="producto1" class="imagenes" />
+          <h4 class="alinear_y_tamaño_texto">Nombre del Producto</h4>
+          <p class="alinear_y_tamaño_texto">$1000</p>
+          <button class="boton">Agregar al carrito</button>
+        </article>
+      </div>
+    </section>
+
+    <!--PIE DE PAGINA-->
+    <footer>
+      <div class="container">
+        <div class="sec-descrip">
+          <h2>BookBuster</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate
+            dolore necessitatibus ut id sint nisi molestias dicta temporibus
+            explicabo dolores, porro repudiandae quam ipsum nemo illo
+            voluptatem! Culpa, soluta libero?
+          </p>
+          <ul class="sci">
+            <li>
+              <a href="#"><i class="fab fa-whatsapp"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-instagram" _mstvisible="2"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-facebook"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+            </li>
+          </ul>
+        </div>
+        <div class="Mas-Info">
+          <h2>Mas Informacion</h2>
+          <ul>
+            <li><a href="#">Cambios</a></li>
+            <li><a href="#">Contacto</a></li>
+            <li><a href="#">Preguntas Frecuentes</a></li>
+            <li><a href="#">Quiénes somos</a></li>
+          </ul>
+        </div>
+        <div class="medios-pago">
+          <h2>MEDIOS DE PAGO</h2>
+          <article>
+            <i class="fab fa-cc-visa"></i>
+            <i class="fab fa-cc-mastercard"></i>
+            <i class="fab fa-cc-paypal"></i>
+            <i class="fas fa-credit-card"></i>
+            <i class="fas fa-money-bill-alt"></i>
+          </article>
+        </div>
+      </div>
+    </footer>
+    <section class="copyright">
+      <p>© 2021 BookBuster Ltd.UK Número de registro de la empresa: 5124926</p>
+    </section>
+  </body>
+</html>

@@ -1,0 +1,107 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Roboto Slab";
+}
+.title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #3a3846;
+  text-align: center;
+}
+.product_list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.product_info {
+  display: flex;
+  text-align: left;
+  flex-direction: column;
+  margin: 0px 5px;
+  width: 55%;
+  height: 55%;
+}
+.product_info p {
+  font-size: 1rem;
+}
+.product_list h2 {
+  text-align: center;
+  margin: 20px;
+  width: 100%;
+  font-size: 1.1rem;
+  color: black;
+}
+.img_product img {
+  width: 100%;
+  height: auto;
+  border: 2px solid black;
+}
+.img_product {
+  width: 40%;
+  height: auto;
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.product_units input {
+  width: 60px;
+  height: 30px;
+  float: left;
+  display: block;
+  border: 1px solid #eee;
+  text-align: center;
+}
+.product_units {
+  align-self: left;
+  float: left;
+  margin: 10px;
+}
+
+.buy_process {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 10px;
+}
+.buy_process .envio input {
+  margin: 0;
+  display: none;
+}
+.envio {
+  width: 40%;
+  justify-content: baseline;
+}
+.price {
+  justify-content: center;
+  text-align: right;
+  width: 40%;
+}
+.form_buy {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 10px;
+}
+button {
+  margin-left: 2px;
+  background: #18a999;
+  position: relative;
+  border-radius: 10px;
+  padding: 5px 11px;
+  font-size: 20px;
+  height: 40px;
+  color: #f4f6f6;
+}

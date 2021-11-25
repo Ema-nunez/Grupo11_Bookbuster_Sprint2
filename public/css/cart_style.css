@@ -3,11 +3,8 @@
   margin: 0;
   padding: 0;
 }
-body {
-  font-family: "Roboto Slab";
-}
+
 .item_container {
-  border: 1px solid black;
   padding: 10px 0px 10px 0px;
 }
 .title {
@@ -22,23 +19,39 @@ body {
   justify-content: stretch;
   width: 90%;
   padding: 5px;
-  border: 1px solid black;
+  border-radius: 5px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  border: 1px solid rgb(119, 119, 119);
 }
 .delete {
   margin-left: 2px;
   background: #18a999;
-  position: relative;
   bottom: 0;
   border-radius: 10px;
   padding: 5px 11px;
   font-size: 15px;
   height: 30px;
   color: #f6f4f4;
+  border: none;
 }
 .btn_delete {
+  margin: auto;
   display: flex;
-  justify-content: right;
+  justify-content: center;
   width: 25%;
+}
+.product_units {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 5px;
+}
+.product_units select {
+  width: 20%;
+  padding: 5px;
+  border: 1px solid rgb(119, 119, 119);
+  border-radius: 5px;
 }
 .btn_delete button:hover {
   background-color: red;
@@ -65,7 +78,7 @@ body {
 .img_product img {
   width: 100%;
   height: auto;
-  border: 2px solid black;
+  border: 2px solid rgb(119, 119, 119);
 }
 .img_product {
   width: 20%;
@@ -76,7 +89,9 @@ input[type="number"]::-webkit-outer-spin-button {
   -webkit-appearance: none;
   margin: 0;
 }
-
+.price {
+  text-align: left;
+}
 .product_units input {
   width: 60px;
   height: 30px;
@@ -98,7 +113,8 @@ input[type="number"]::-webkit-outer-spin-button {
   border: 1px solid black;
 }
 .subtotal p {
-  text-align: right;
+  text-align: left;
+  justify-content: left;
   width: 50%;
 }
 .envio {
@@ -148,7 +164,7 @@ button:hover {
     width: 25%;
   }
   .img_product {
-    width: 10%;
+    width: 20%;
     height: auto;
   }
   .btn_delete {
@@ -179,7 +195,7 @@ button:hover {
 
 @media (min-width: 750px) {
   .img_product {
-    width: 10%;
+    width: 20%;
     height: auto;
   }
 
@@ -189,11 +205,17 @@ button:hover {
     justify-content: space-between;
     width: 90%;
     padding: 5px;
-    border: 1px solid black;
+    border: 1px solid rgb(119, 119, 119);
+  }
+  .subtotal .envio {
+    padding: 10px;
+  }
+  .subtotal p {
+    padding: 10px 25px;
   }
 
   .price p {
-    font-size: 2.5vw;
+    font-size: 5vw;
   }
 
   .product {
@@ -202,6 +224,7 @@ button:hover {
     width: 90%;
     margin: 0px 50px;
     justify-content: stretch;
+    padding: 15px;
   }
   .product_info {
     display: flex;
@@ -214,7 +237,7 @@ button:hover {
     margin: auto;
   }
   .product h2 {
-    font-size: 1.3rem;
+    font-size: 2rem;
   }
   .send_options {
     display: flex;
@@ -223,7 +246,13 @@ button:hover {
     justify-content: space-around;
     width: 20%;
     padding: 10px;
-    border: 1px solid black;
+    border: 1px solid rgb(119, 119, 119);
     margin: 0px 50px;
+  }
+  .delete {
+    margin-right: 20px;
+    font-size: 2.5vw;
+    width: 20%;
+    height: auto;
   }
 }

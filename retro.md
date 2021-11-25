@@ -1,10 +1,16 @@
-# Grupo11_Bookbuster_Sprint2
-Comenzar a hacer:  Debemos coordinar encuentros por zoom para asegurar que cada uno respete los patrones de diseño.
+# Grupo11_Bookbuster_Sprint
 
-Hacer más: Organizarnos mejor, comunicarnos y planificar mejor las cosas.
+# Comenzar a hacer:  
+- Debemos coordinar encuentros por zoom para asegurar que cada uno respete los patrones de diseño.
 
-Continuar haciendo: División del trabajo equitativo y poder ponernos de acuerdo en diversas situaciones.
+# Hacer más: 
+- Organizarnos mejor, comunicarnos y planificar mejor las cosas.
 
-Hacer menos: Confiarnos en las fechas de entrega.
+# Continuar haciendo: 
+- División del trabajo equitativo y poder ponernos de acuerdo en diversas situaciones.
 
-Dejar de hacer: 
+# Hacer menos: 
+- Confiarnos en las fechas de entrega.
+
+# Dejar de hacer: 
+- Posponer diversas tareas hasta pocos dias de las entregas.

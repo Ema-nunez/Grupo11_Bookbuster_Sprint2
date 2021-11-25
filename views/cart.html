@@ -59,43 +59,55 @@
         </div>
       </div>
     </header>
-    <div class="container">
+    <div class="item_container">
       <div class="title">
         <h1>Tu carrito</h1>
       </div>
-      <div class="product_list">
-        <h2>spy x family 06</h2>
+
+      <div class="product">
         <div class="img_product">
           <img src="\images\spyxfamily06.jpg" alt="" />
-          <div class="product_units">
-            <input type="number" />
-          </div>
         </div>
-
         <div class="product_info">
-          <p>
-            El habíl espía Tasogare se dedicaba diariamente a cumplir misiones
-            especiales por un mundo mejor. Un día recibe un complicado
-            desafío... Su deber es crear una familia falsa y comenzar una nueva
-            vida para poder cumplir la misión, ¿¡pero...!?
-          </p>
-          <div class="buy_process">
-            <div class="envio">
-              <input type="checkbox" class="envio" id="envio" />
-              <label for="envio" class="send">Envio </label>
-              <i class="fas fa-truck"></i>
-            </div>
-
-            <div class="price">
-              <p>$550</p>
-            </div>
+          <h2>spy x family 06</h2>
+          <div class="price">
+            <p>$550</p>
           </div>
-          <form class="form_buy" action="">
-            <button>Comprar</button>
-          </form>
+          <!-- <div class="product_units">
+            <input type="number" />
+          </div> -->
+        </div>
+        <div class="btn_delete">
+          <button class="delete"><i class="fas fa-trash"></i></button>
         </div>
       </div>
+      <div class="subtotal">
+        <div class="envio">
+          <label for="send">envio <i class="fas fa-truck-moving"></i></label>
+          <input class="check" type="checkbox" id="send" />
+        </div>
+        <p>Subtotal (sin envio): $550</p>
+      </div>
+      <div class="send_options" id="send_options">
+        <div class="op1 op">
+          <input type="checkbox" id="caba" />
+          <label for="caba">Envio a caba</label>
+        </div>
+        <div class="op2 op">
+          <input type="checkbox" id="interior" />
+          <label for="interior">Envio a interior</label>
+        </div>
+        <div class="op3 op">
+          <input type="checkbox" id="sucursal" />
+          <label for="sucursal">Envio a sucursal</label>
+        </div>
+      </div>
+
+      <form class="form_buy" action="">
+        <button>Comprar</button>
+      </form>
     </div>
+
     <footer>
       <div class="container">
         <div class="sec-descrip">
